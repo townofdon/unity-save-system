@@ -70,8 +70,6 @@ public class GameState : ScriptableObject
 
     bool WithLookup(Dictionary<string, bool> dict, string uuid)
     {
-        Debug.Log($"isLoaded={isLoaded}");
-
         if (!isLoaded) return false;
         if (!dict.ContainsKey(uuid)) return false;
         return dict[uuid];

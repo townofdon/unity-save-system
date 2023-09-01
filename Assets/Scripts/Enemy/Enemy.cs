@@ -77,17 +77,17 @@ public class Enemy : MonoBehaviour
         if (!hasSeenPlayer) return;
         if (player == null) return;
 
-        Vector2 heading = Vector2.zero;
-        heading.x = player.transform.position.x - transform.position.x;
-        // normalize
-        if (heading.x != 0) heading.x /= heading.x;
-        body.velocity = heading * moveSpeed;
+        Vector2 heading = (player.transform.position - transform.position).normalized;
+        body.velocity = new Vector2(-heading.x * moveSpeed, body.velocity.y);
     }
 
     void FindPlayer()
     {
-        if (player != null) return;
-        hasSeenPlayer = false;
+        if (player != null)
+        {
+            hasSeenPlayer = false;
+            return;
+        }
         player = GameObject.FindWithTag("Player");
     }
 }

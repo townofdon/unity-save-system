@@ -42,15 +42,27 @@ public class SaveIdentifier : MonoBehaviour
         if (string.IsNullOrEmpty(gameObject.scene.path)) return;
 
         SerializedObject serializedObject = new SerializedObject(this);
-        SerializedProperty property = serializedObject.FindProperty("_uuid");
+        SerializedProperty p_uuid = serializedObject.FindProperty("_uuid");
 
-        if (string.IsNullOrEmpty(property.stringValue) || !IsUnique(property.stringValue))
+        if (string.IsNullOrEmpty(p_uuid.stringValue) || !IsUnique(p_uuid.stringValue))
         {
-            property.stringValue = Guid.NewGuid().ToString();
+            p_uuid.stringValue = Guid.NewGuid().ToString();
             serializedObject.ApplyModifiedProperties();
         }
 
-        globalLookup[property.stringValue] = this;
+        globalLookup[p_uuid.stringValue] = this;
+    }
+
+    [ContextMenu("Regenerate UUID")]
+    void Regen()
+    {
+        SerializedObject serializedObject = new SerializedObject(this);
+        SerializedProperty p_uuid = serializedObject.FindProperty("_uuid");
+
+        p_uuid.stringValue = Guid.NewGuid().ToString();
+        serializedObject.ApplyModifiedProperties();
+
+        globalLookup[p_uuid.stringValue] = this;
     }
 
     bool IsUnique(string candidate)

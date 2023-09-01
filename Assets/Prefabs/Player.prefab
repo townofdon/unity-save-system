@@ -56,7 +56,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8559378447867836568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.082930766}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -169,9 +169,9 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 4b14690f5d2244a2b9f9f9bb64a150bb, type: 2}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!61 &8559378447882828138
 BoxCollider2D:
@@ -213,17 +213,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debug: 1
   initialHealth: 100
-  moveSpeed: 5
+  moveSpeed: 7
+  accelTime: 0.05
   jumpForce: 13
   earlyJump: 0.1
   coyoteTime: 0.3
   gravity: 2
   fallGravityMod: 3
+  maxFallSpeed: 35
+  canWallJump: 1
+  wallJumpForce: 11
+  wallJumpAngle: 45
+  maxWallGrabFallSpeed: 5
+  canDoubleJump: 1
+  numAllowedJumps: 2
+  flipSprite: {fileID: 8559378447867836568}
+  flipSpeed: 900
+  wallCheckFilter:
+    useTriggers: 0
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 1
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
   groundCheck: {fileID: 8559378447564174278}
   groundLayer:
     serializedVersion: 2
     m_Bits: 897
-  gameState: {fileID: 11400000, guid: ce7c328ac023c4c289da7e512643a481, type: 2}
 --- !u!114 &8559378447882828136
 MonoBehaviour:
   m_ObjectHideFlags: 0
