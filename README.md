@@ -8,5 +8,10 @@ Features (WIP):
 - [ ] Persistence across scenes
 - [ ] Persisted state from ScriptableObjects
 - [ ] Persisted state from MonoBehaviours
-- [ ] Multiple save files
-- [ ] Encrypted save files
+- [x] Multiple save files
+- [x] Encrypted save files
+
+Sources:
+
+- Llamacadamy - [YouTube Tutorial](https://www.youtube.com/watch?v=mntS45g8OK4) - [GitHub repo](https://github.com/llamacademy/persistent-data/)
+- Trevor Mock - [YouTube Tutorial](https://www.youtube.com/watch?v=aUi9aijvpgs) - [Github repo](https://github.com/trevermock/save-load-system/tree/5-bug-fixes-and-polish)
