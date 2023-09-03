@@ -2,6 +2,13 @@ using UnityEngine;
 
 public class test_FileSaver : MonoBehaviour
 {
+
+    [SerializeField] string saveFile = "test-save";
+    [SerializeField] bool useEncryption;
+
+    [Space]
+    [Space]
+
     [SerializeField] int one;
     [SerializeField] string two;
     [SerializeField] bool three;
@@ -10,6 +17,7 @@ public class test_FileSaver : MonoBehaviour
     [ContextMenu("Save")]
     void Save()
     {
+        string path = FileRW.GetFullPath(saveFile);
         four["aaa"] = true;
         four["bbb"] = false;
         four["ccc"] = true;
@@ -21,13 +29,14 @@ public class test_FileSaver : MonoBehaviour
             three = three,
             four = four,
         };
-        FileSaver.Save("test-file", data);
+        FileRW.Save(path, data, useEncryption: useEncryption);
     }
 
     [ContextMenu("Load")]
     void Load()
     {
-        if (FileSaver.TryLoad<TestData>("test-file", out var data))
+        string path = FileRW.GetFullPath(saveFile);
+        if (FileRW.TryLoad<TestData>(path, out var data, useEncryption: useEncryption))
         {
             one = data.one;
             two = data.two;
@@ -35,6 +44,17 @@ public class test_FileSaver : MonoBehaviour
             four = data.four;
             Debug.Log("Loaded data successfully");
         }
+    }
+
+    [ContextMenu("Delete")]
+    void Delete()
+    {
+        string path = FileRW.GetFullPath(saveFile);
+        FileRW.Delete(path);
+        one = 0;
+        two = "";
+        three = false;
+        four.Clear();
     }
 }
 
