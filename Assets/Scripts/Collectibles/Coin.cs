@@ -1,11 +1,11 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SaveIdentifier))]
+[RequireComponent(typeof(SaveableEntity))]
 public class Coin : MonoBehaviour, ICollectible
 {
     [SerializeField] int money = 10;
 
-    SaveIdentifier id;
+    SaveableEntity id;
 
     public void Pickup()
     {
@@ -16,7 +16,7 @@ public class Coin : MonoBehaviour, ICollectible
 
     void Awake()
     {
-        id = GetComponent<SaveIdentifier>();
+        id = GetComponent<SaveableEntity>();
     }
 
     void Start()

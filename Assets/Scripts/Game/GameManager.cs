@@ -9,8 +9,21 @@ public class GameManager : MonoBehaviour
 
     Coroutine respawning;
 
+    // not a singleton bc this is not global nor should it be
+    private static GameManager instance;
+
     void Awake()
     {
+        if (instance != null)
+        {
+            Debug.LogError($"[GameManager] more than one instance was encountered");
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+
         State.game.Clear();
     }
 

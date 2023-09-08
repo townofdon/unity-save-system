@@ -1,13 +1,13 @@
 using System;
 using UnityEngine;
 
-[RequireComponent(typeof(SaveIdentifier))]
+[RequireComponent(typeof(SaveableEntity))]
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 2f;
 
     Rigidbody2D body;
-    SaveIdentifier id;
+    SaveableEntity id;
 
     GameObject player;
     bool hasSeenPlayer;
@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        id = GetComponent<SaveIdentifier>();
+        id = GetComponent<SaveableEntity>();
     }
 
     void Start()

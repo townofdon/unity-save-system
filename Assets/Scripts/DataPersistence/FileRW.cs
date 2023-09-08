@@ -6,6 +6,12 @@ using UnityEngine;
 public static class FileRW
 {
     private const string EK = "BAA896AA-D894-4088-9313-C084CE07CA1E";
+    private const string FILE_EXTENSION = ".sav";
+
+    public static string GetFullPath(string saveFileName)
+    {
+        return Path.Combine(Application.persistentDataPath, saveFileName + FILE_EXTENSION);
+    }
 
     public static bool Save(string path, object obj, bool append = false, bool useEncryption = false)
     {
@@ -73,8 +79,7 @@ public static class FileRW
         {
             if (File.Exists(path))
             {
-                // // delete the profile folder and everything within it
-                // Directory.Delete(Path.GetDirectoryName(path), true);
+                // Directory.Delete(Path.GetDirectoryName(path), true); // delete the profile folder and everything within it
                 File.Delete(path);
             }
             else
@@ -89,7 +94,7 @@ public static class FileRW
         }
     }
 
-    // the below is a simple implementation of XOR encryption
+    // simple implementation of XOR encryption - NOT a super secure way to encrypt a save file
     static string EncryptDecrypt(string original)
     {
         var modified = new StringBuilder(original.Length);
@@ -99,21 +104,5 @@ public static class FileRW
             modified.Append((char)(original[i] ^ EK[i % EK.Length]));
         }
         return modified.ToString();
-    }
-
-    // public unsafe static void Clear(this string s)
-    // {
-    //     fixed (char* ptr = s)
-    //     {
-    //         for (int i = 0; i < s.Length; i++)
-    //         {
-    //             ptr[i] = '\0';
-    //         }
-    //     }
-    // }
-
-    public static string GetFullPath(string saveFileName)
-    {
-        return Path.Combine(Application.persistentDataPath, saveFileName + ".sav");
     }
 }
