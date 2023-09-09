@@ -172,7 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: ef569f75-8c1c-4db7-a1b4-4782266c509f
 --- !u!58 &2487010
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -274,6 +273,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: cd420841-8bf8-4f95-9ceb-f6cff61b7cbd
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &11975871
 GameObject:
@@ -408,7 +409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 668e2210-7a8b-4b55-bb74-d06c5f38de03
 --- !u!58 &20713585
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -510,6 +510,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 5ddc893e-e6b8-438a-b5de-53030770f917
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &36704813
 GameObject:
@@ -560,7 +562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: c675e2f6-c505-4da5-9ce4-ea7961fa7681
 --- !u!58 &36704816
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -662,6 +663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: eaefcf4c-e46d-450c-8c0d-d40b361a31f3
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &37894478
 GameObject:
@@ -712,7 +715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: b5c5509e-5151-4876-bf83-a7b123ece2f2
 --- !u!58 &37894481
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -814,6 +816,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 66d96f20-de9b-498e-900f-885fa9d2ff12
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &48343633
 GameObject:
@@ -864,7 +868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: e4fc77a1-a03a-4ad1-b161-05d86d760857
 --- !u!58 &48343636
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -966,6 +969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 5b42d525-0122-4c6d-a909-d24c3bf273fa
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &120585052
 GameObject:
@@ -1249,7 +1254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 0120198c-ac38-41eb-b863-6d1fd1f0d076
 --- !u!58 &251803551
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1351,6 +1355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 574e0004-b913-444e-85bd-bbfd234aff15
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &263397291
 GameObject:
@@ -1401,7 +1407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 941482ef-aacc-48a2-a9e0-126e4d023573
 --- !u!58 &263397294
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1503,6 +1508,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 3e5df2d2-18e3-44ba-a4c2-ea97203ec7e9
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &271550328
 GameObject:
@@ -1637,7 +1644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 2f188a8a-ce3a-4450-8f51-f59e672335c8
 --- !u!58 &329840905
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1739,6 +1745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: a932cb2d-882f-47d5-981c-2b5eea8a9b82
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &358103491
 GameObject:
@@ -1789,7 +1797,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: dc3fe38a-5874-45c3-9398-f61f5538e01e
 --- !u!58 &358103494
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1891,7 +1898,79 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 7c9a08bb-b778-40f9-86d9-c969870c12d6
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
+--- !u!1001 &371226976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2098527665}
+    m_Modifications:
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 48.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 52.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968177, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968183, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: _uuid
+      value: b35d6c85-c3e4-4b7b-aa04-b9f800fd71cd
+      objectReference: {fileID: 0}
+    - target: {fileID: 1385969970875968183, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+      propertyPath: _scenePath
+      value: Assets/Scenes/World03.unity
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+--- !u!4 &371226977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1385969970875968176, guid: 3adc03f15544c4ff2a32b50789e4e2c6, type: 3}
+  m_PrefabInstance: {fileID: 371226976}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &383275880
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,6 +2318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc1b18ee33d29469fa244b64d4fb948c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 9a916393-6802-43fe-b8c9-1eb5e08e99c3
+  _scenePath: Assets/Scenes/World03.unity
   moveSpeed: 2
 --- !u!114 &483937825
 MonoBehaviour:
@@ -2252,7 +2333,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 2d6821a2-50e5-452f-9e6e-341678a3fa78
 --- !u!1 &490882556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,7 +2466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 70d411af-b8da-4b50-8f2d-307c39bef3fc
 --- !u!58 &506517372
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2488,6 +2567,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 3265f211-4973-4aba-a171-eee603b96098
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &517803862
 GameObject:
@@ -2538,7 +2619,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 3d129484-f151-461f-883a-ebf60ca30b2e
 --- !u!58 &517803865
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2640,6 +2720,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 18eb4d11-491b-4d0b-b5d4-2291f2773f56
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &519420028
 GameObject:
@@ -2774,7 +2856,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 469621f7-aa5a-4064-9279-b9c7c3ec8fc8
 --- !u!58 &559728138
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2876,6 +2957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 26d414ee-8738-4bf7-aa4d-b2e0efd6f848
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &575757860
 GameObject:
@@ -3178,7 +3261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: e3b0d9c6-fe98-4e76-9c1f-bd87ffac52b4
 --- !u!58 &617643553
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3280,6 +3362,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: afc08526-bfea-4453-bb34-85b18b117581
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &635109919
 GameObject:
@@ -3582,7 +3666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 4218c29b-dc2f-4c01-b70d-2cbf854b71ad
 --- !u!58 &696936128
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3684,6 +3767,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 655ed444-4f6c-4984-b23d-eeee8b942ea5
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &709242949
 GameObject:
@@ -4070,7 +4155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: d57b417b-065b-48f6-9640-19f640f9b445
 --- !u!58 &767994852
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4172,6 +4256,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 12d9962d-6b5b-4340-b9e3-e81a24d4955f
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &788289175
 GameObject:
@@ -4222,7 +4308,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: c63c226f-8ae9-446b-85ed-37ebeadc7862
 --- !u!58 &788289178
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4324,6 +4409,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 82912674-b196-461b-9993-331295bba9b2
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &798104247
 GameObject:
@@ -5982,7 +6069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 1e941cdc-98cb-4eb7-8fbe-8bf818a35d60
 --- !u!58 &828349760
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6084,6 +6170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 423b0c40-a282-4953-ade1-1c9339cc2e09
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &843517775
 GameObject:
@@ -6134,7 +6222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 0e69782e-b3e2-49c1-99d2-3ccceecc2e72
 --- !u!58 &843517778
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6236,6 +6323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 18a1424e-6b96-4a62-a97d-0c481a6966e8
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &843518280
 GameObject:
@@ -6422,6 +6511,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 8630e9b9-1fa6-4cd8-8471-f487cbbd866c
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!50 &874444340
 Rigidbody2D:
@@ -6472,7 +6563,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: f20a9fd0-5cc3-4f6a-9d11-7cc7e81d620d
 --- !u!1 &1000212674
 GameObject:
   m_ObjectHideFlags: 0
@@ -6606,7 +6696,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 72fff1a5-96d9-4518-a44e-47a1d1498205
 --- !u!58 &1145145884
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6708,6 +6797,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: cf4a8594-cc59-46cf-9b9b-fbe35e851753
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1206248903
 GameObject:
@@ -6926,7 +7017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 65923f2b-6958-409e-8946-ceb27e29f5aa
 --- !u!58 &1256506449
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7028,6 +7118,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 2607538c-ab48-481a-8840-ce8fba825a2a
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1280727639
 GameObject:
@@ -7316,7 +7408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 3d71f3af-c50d-45e8-90ad-092ad9e3ee73
 --- !u!58 &1476094532
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7418,6 +7509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: ba99a548-b161-400f-81eb-732b13c12e26
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1486465255
 GameObject:
@@ -7552,7 +7645,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 1fcc1080-4573-449c-bc3e-db6ae2ab951c
 --- !u!58 &1579083558
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7654,6 +7746,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: cd305bdd-387e-4e1d-ae14-9bf0f3d42b78
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1600646659
 GameObject:
@@ -7788,7 +7882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 2f3f3557-cbe9-4a41-a481-b20669c4299b
 --- !u!58 &1613411404
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7890,6 +7983,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: ae0b412e-e0e0-433a-b33d-884d7230c464
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1620163684
 GameObject:
@@ -7940,7 +8035,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 30bd7ae0-050c-4899-bbd5-3be1c9dd35a6
 --- !u!58 &1620163687
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8042,6 +8136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 40f53a33-a02f-4ded-941a-cea694f32205
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1001 &1621892123
 PrefabInstance:
@@ -8240,7 +8336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 6b1075eb-94d9-4b1b-b3dc-8753096a65d3
 --- !u!58 &1659586877
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8342,6 +8437,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 504facaf-040e-452e-87c9-09dd3abb0185
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1673935089
 GameObject:
@@ -8644,7 +8741,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: f7ca0177-58d9-425d-b391-08c6e3a232ce
 --- !u!58 &1719569815
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8746,6 +8842,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 793fd217-7bdb-4538-88a5-f4fe39763534
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1754806115
 GameObject:
@@ -8880,7 +8978,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 2ae26336-8ab6-452d-b419-b902c99d924c
 --- !u!58 &1766696109
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -8982,6 +9079,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 2c4c7a85-21fb-4bbb-9cfc-28ef19f38990
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1785541717
 GameObject:
@@ -9200,7 +9299,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 537b0749-a783-4f37-bb8b-8ca350061bed
 --- !u!58 &1813868675
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9302,6 +9400,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: a9a704de-960f-4042-85e6-e533ccfd3533
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1852327545
 GameObject:
@@ -9436,7 +9536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: fe237f58-7c32-4fd1-aa3a-8d1e351289f9
 --- !u!58 &1859517466
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9538,6 +9637,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: ed3816a2-3dd9-48f8-9e52-d93e9882ddb2
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1870551366
 GameObject:
@@ -9672,7 +9773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: fff0bdf1-239f-4047-a4b7-0aa9f9a63007
 --- !u!58 &1903838856
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9774,6 +9874,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: a9cb25a2-d217-4c55-b741-26da63896dae
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1912946616
 GameObject:
@@ -9908,7 +10010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: f0c195c1-6f36-4e12-964d-5fd1a8ab44be
 --- !u!58 &1942445293
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10010,6 +10111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: ec691062-1199-4ef7-8dcd-dd6b91a2ac4a
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &1958523362
 GameObject:
@@ -20693,7 +20796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 0f86ee8c-baf8-448a-9ce3-4940ba2d2a37
 --- !u!58 &2054533409
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20795,6 +20897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 69b84a8d-ab4e-43c2-8248-03b56cccbe9a
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &2083700713
 GameObject:
@@ -20845,7 +20949,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: b14bb123-752d-42c7-acdc-618a9d449225
 --- !u!58 &2083700716
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20947,7 +21050,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: bcef1942-1446-4e59-b6c0-b524e123ad73
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
+--- !u!1 &2098527664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2098527665}
+  m_Layer: 0
+  m_Name: Checkpoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2098527665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098527664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 371226977}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2104878494
 GameObject:
   m_ObjectHideFlags: 0
@@ -20997,7 +21134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: b31fef86-f43e-49b2-979c-42d8a68b2011
 --- !u!58 &2104878497
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21099,6 +21235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: 966a45b4-8403-47b1-949e-7bb25a79182e
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &2116086491
 GameObject:
@@ -21149,7 +21287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _uuid: 6ce77551-d4b0-4c40-8c57-bb0e63d3492f
 --- !u!58 &2116086494
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21251,6 +21388,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ac1244b366ad42ef9bf2d4dd06b618f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _uuid: a984118b-c92c-4fb3-aa24-c123750bcc45
+  _scenePath: Assets/Scenes/World03.unity
   money: 10
 --- !u!1 &2143171012
 GameObject:
@@ -21362,6 +21501,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8559378447882828139, guid: f9ffab34827b3461c8d59466325e1bf2, type: 3}
+      propertyPath: _uuid
+      value: e890d374-4191-4bd7-919d-12513ed4bd98
+      objectReference: {fileID: 0}
+    - target: {fileID: 8559378447882828139, guid: f9ffab34827b3461c8d59466325e1bf2, type: 3}
+      propertyPath: _scenePath
+      value: Assets/Scenes/World03.unity
+      objectReference: {fileID: 0}
     - target: {fileID: 8559378447882828140, guid: f9ffab34827b3461c8d59466325e1bf2, type: 3}
       propertyPath: m_RootOrder
       value: 4

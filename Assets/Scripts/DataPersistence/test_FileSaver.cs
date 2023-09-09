@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class test_FileSaver : MonoBehaviour
 {
-
-    [SerializeField] string saveFile = "test-save";
+    [SerializeField] SaveSlot saveSlot;
     [SerializeField] bool useEncryption;
+    [SerializeField] string saveFile = "";
 
     [Space]
     [Space]
@@ -14,10 +14,25 @@ public class test_FileSaver : MonoBehaviour
     [SerializeField] bool three;
     [SerializeField] SerializableDictionary<string, bool> four = new();
 
+    FileHandler fileHandler;
+
+    static test_FileSaver instance;
+
+    void Awake()
+    {
+        if (instance != null)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
+    }
+
     [ContextMenu("Save")]
     void Save()
     {
-        string path = FileRW.GetFullPath(saveFile);
+        fileHandler ??= new FileHandler(saveFile);
         four["aaa"] = true;
         four["bbb"] = false;
         four["ccc"] = true;
@@ -29,14 +44,14 @@ public class test_FileSaver : MonoBehaviour
             three = three,
             four = four,
         };
-        FileRW.Save(path, data, useEncryption: useEncryption);
+        fileHandler.Save(saveSlot, data, useEncryption: useEncryption);
     }
 
     [ContextMenu("Load")]
     void Load()
     {
-        string path = FileRW.GetFullPath(saveFile);
-        if (FileRW.TryLoad<TestData>(path, out var data, useEncryption: useEncryption))
+        fileHandler ??= new FileHandler(saveFile);
+        if (fileHandler.TryLoad<TestData>(saveSlot, out var data, useEncryption: useEncryption))
         {
             one = data.one;
             two = data.two;
@@ -49,8 +64,8 @@ public class test_FileSaver : MonoBehaviour
     [ContextMenu("Delete")]
     void Delete()
     {
-        string path = FileRW.GetFullPath(saveFile);
-        FileRW.Delete(path);
+        fileHandler ??= new FileHandler(saveFile);
+        fileHandler.Delete(saveSlot);
         one = 0;
         two = "";
         three = false;

@@ -1,38 +1,47 @@
 using System;
 using UnityEngine;
 
-[RequireComponent(typeof(SaveableEntity))]
-public class Enemy : MonoBehaviour
+public class Enemy : MonoSaveable
 {
     [SerializeField] float moveSpeed = 2f;
 
     Rigidbody2D body;
-    SaveableEntity id;
 
     GameObject player;
     bool hasSeenPlayer;
     float hp = 10;
     bool isAlive = true;
 
+    public override void OnGameSave(ref GameState gameData) { }
+
+    public override void OnGameLoad(GameState gameData)
+    {
+        Init();
+    }
+
     public void Die()
     {
-        State.game.AddEnemyKilled(id.uuid);
+        State.game.AddEnemyKilled(uuid);
         Destroy(gameObject);
     }
 
     void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        id = GetComponent<SaveableEntity>();
     }
 
-    void Start()
+    void Init()
     {
-        if (State.game.GetIsEnemyKilled(id.uuid))
+        if (State.game.GetIsEnemyKilled(uuid))
         {
             Destroy(gameObject);
             return;
         }
+    }
+
+    void Start()
+    {
+        Init();
     }
 
     void OnTriggerEnter2D(Collider2D other)

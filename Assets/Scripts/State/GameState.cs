@@ -1,34 +1,78 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [CreateAssetMenu(fileName = "GameState", menuName = "GameState", order = 0)]
 public class GameState : ScriptableObject
 {
+    // TODO: REMOVE SERIALIZE FIELD
     [SerializeField] GameData data = GameData.defaultValues;
+    [SerializeField] SaveMetadata metadata;
 
-    bool isLoaded;
+    DateTime timeStarted = DateTime.Now;
 
-    // getters
-
-    public Vector2 GetPlayerSpawnPosition(Vector2 defaultValue) => WithDefaultValue(data.playerSpawnPosition, defaultValue);
-    public int GetPlayerLives(int defaultValue) => WithDefaultValue(data.playerLives, defaultValue);
-    public int GetMoney(int defaultValue) => WithDefaultValue(data.money, defaultValue);
-    public bool GetIsEnemyKilled(string uuid) => WithLookup(data.enemiesKilled, uuid);
-    public bool GetIsCollectibleObtained(string uuid) => WithLookup(data.collectiblesObtained, uuid);
-
-    // setters
+    #region SAVE_ACTIONS
 
     public void Clear()
     {
-        isLoaded = false;
         data = GameData.defaultValues;
+        metadata = new SaveMetadata();
+        timeStarted = DateTime.Now;
     }
 
-    public void SetLoaded()
+    public void SetData(GameData gameData)
     {
-        isLoaded = true;
+        data = gameData;
     }
+
+    public GameData GetData()
+    {
+        return data;
+    }
+
+    public SaveMetadata GetMetadata()
+    {
+        return metadata;
+    }
+
+    public void OnSave(int sceneIndex, string sceneName = "")
+    {
+        metadata.timeLastUpdatedBinary = GetCurrentTime().ToBinary();
+        metadata.timeSpentPlayingSeconds += GetTimeSpentPlayingSeconds();
+        if (sceneIndex != -1) data.sceneIndex = sceneIndex;
+        if (!string.IsNullOrWhiteSpace(sceneName)) metadata.sceneName = sceneName;
+        timeStarted = DateTime.Now;
+    }
+
+    DateTime GetCurrentTime()
+    {
+        return DateTime.Now;
+    }
+
+    double GetTimeSpentPlayingSeconds()
+    {
+        var currentTime = GetCurrentTime();
+        var elapsed = currentTime - timeStarted;
+        return elapsed.TotalSeconds;
+    }
+
+    #endregion
+
+    #region GETTERS
+
+    public int GetSceneIndex() => data.sceneIndex;
+    public Vector2 GetPlayerSpawnPosition() => data.playerSpawnPosition;
+    public int GetPlayerLives(int defaultValue = 3) => WithDefaultValue(data.playerLives, defaultValue);
+    public int GetMoney(int defaultValue = 0) => WithDefaultValue(data.money, defaultValue);
+
+    public bool GetIsEnemyKilled(string uuid) => WithLookup(data.enemiesKilled, uuid);
+    public bool GetIsCollectibleObtained(string uuid) => WithLookup(data.collectiblesObtained, uuid);
+    public bool GetIsCheckpointReached(string uuid) => WithLookup(data.checkpointsReached, uuid);
+
+    #endregion
+
+    #region SETTERS
 
     public void SetPlayerSpawnPosition(Vector3 position)
     {
@@ -60,18 +104,28 @@ public class GameState : ScriptableObject
         data.collectiblesObtained[uuid] = true;
     }
 
-    // util
-
-    T WithDefaultValue<T>(T value, T defaultValue)
+    public void AddCheckpointReached(string uuid)
     {
-        if (!isLoaded) return defaultValue;
+        data.checkpointsReached[uuid] = true;
+        var scene = SceneManager.GetActiveScene();
+        OnSave(scene.buildIndex, scene.name);
+    }
+
+    #endregion
+
+    #region UTILS
+
+    T WithDefaultValue<T>(T value, T defaultValue = default)
+    {
+        if (value.Equals(default)) return defaultValue;
         return value;
     }
 
     bool WithLookup(Dictionary<string, bool> dict, string uuid)
     {
-        if (!isLoaded) return false;
         if (!dict.ContainsKey(uuid)) return false;
         return dict[uuid];
     }
+
+    #endregion UTILS
 }

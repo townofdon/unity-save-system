@@ -1,15 +1,18 @@
+using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Assertions;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject playerPrefab;
     [SerializeField] float respawnTime = 3f;
+    [SerializeField] DataPersistor dataPersistor;
 
     Coroutine respawning;
 
-    // not a singleton bc this is not global nor should it be
+    // not a singleton
     private static GameManager instance;
 
     void Awake()
@@ -25,21 +28,24 @@ public class GameManager : MonoBehaviour
         instance = this;
 
         State.game.Clear();
+        Assert.IsNotNull(dataPersistor);
     }
 
     void Start()
     {
-        State.game.SetLoaded();
+        dataPersistor.NewGame(SaveSlot.A);
     }
 
     void OnEnable()
     {
         GlobalEvents.OnPlayerDeath += OnPlayerDeath;
+        GlobalEvents.OnCheckpointReached += OnCheckpointReached;
     }
 
     void OnDisable()
     {
         GlobalEvents.OnPlayerDeath -= OnPlayerDeath;
+        GlobalEvents.OnCheckpointReached -= OnCheckpointReached;
     }
 
     void OnPlayerDeath()
@@ -48,15 +54,22 @@ public class GameManager : MonoBehaviour
         respawning = StartCoroutine(CRespawnPlayer());
     }
 
-    void RespawnPlayer()
+    void OnCheckpointReached()
     {
-        // Instantiate(playerPrefab, transform.position, Quaternion.identity);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        var prevTimeScale = Time.timeScale;
+        Time.timeScale = 0;
+        dataPersistor.SaveGame();
+        Time.timeScale = prevTimeScale;
     }
 
     IEnumerator CRespawnPlayer()
     {
         yield return new WaitForSeconds(respawnTime);
-        RespawnPlayer();
+        var sceneIndex = State.game.GetSceneIndex();
+        Debug.Log("[GameManager] before scene load");
+        yield return SceneManager.LoadSceneAsync(sceneIndex == -1 ? SceneManager.GetActiveScene().buildIndex : sceneIndex);
+        Debug.Log("[GameManager] after scene load");
+        dataPersistor.LoadGame();
+        respawning = null;
     }
 }
