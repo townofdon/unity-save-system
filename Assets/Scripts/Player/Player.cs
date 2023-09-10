@@ -73,14 +73,11 @@ public class Player : MonoSaveable
     float deltaSpeedX;
     float initialDrag;
 
-    public override void OnGameSave(ref GameState gameState)
-    {
-        gameState.SetPlayerSpawnPosition(transform.position);
-    }
+    public override void OnGameSave(ref GameState gameState) { }
 
     public override void OnGameLoad(GameState gameState)
     {
-        if (gameState.GetSceneIndex() != -1)
+        if (gameState.GetSceneIndex() != -1 && gameState.HasPlayerSpawnPosition())
         {
             transform.position = gameState.GetPlayerSpawnPosition();
         }

@@ -21,9 +21,14 @@ public class GameState : ScriptableObject
         timeStarted = DateTime.Now;
     }
 
-    public void SetData(GameData gameData)
+    public void SetData(GameData data)
     {
-        data = gameData;
+        this.data = data;
+    }
+
+    public void SetMetadata(SaveMetadata metadata)
+    {
+        this.metadata = metadata;
     }
 
     public GameData GetData()
@@ -36,13 +41,17 @@ public class GameState : ScriptableObject
         return metadata;
     }
 
-    public void OnSave(int sceneIndex, string sceneName = "")
+    public void OnSave(bool saveSceneData = false)
     {
         metadata.timeLastUpdatedBinary = GetCurrentTime().ToBinary();
         metadata.timeSpentPlayingSeconds += GetTimeSpentPlayingSeconds();
-        if (sceneIndex != -1) data.sceneIndex = sceneIndex;
-        if (!string.IsNullOrWhiteSpace(sceneName)) metadata.sceneName = sceneName;
         timeStarted = DateTime.Now;
+        if (saveSceneData)
+        {
+            var scene = SceneManager.GetActiveScene();
+            data.sceneIndex = scene.buildIndex;
+            metadata.sceneName = scene.name;
+        }
     }
 
     DateTime GetCurrentTime()
@@ -62,6 +71,7 @@ public class GameState : ScriptableObject
     #region GETTERS
 
     public int GetSceneIndex() => data.sceneIndex;
+    public bool HasPlayerSpawnPosition() => data.hasPlayerSpawnPosition;
     public Vector2 GetPlayerSpawnPosition() => data.playerSpawnPosition;
     public int GetPlayerLives(int defaultValue = 3) => WithDefaultValue(data.playerLives, defaultValue);
     public int GetMoney(int defaultValue = 0) => WithDefaultValue(data.money, defaultValue);
@@ -76,6 +86,7 @@ public class GameState : ScriptableObject
 
     public void SetPlayerSpawnPosition(Vector3 position)
     {
+        data.hasPlayerSpawnPosition = true;
         data.playerSpawnPosition = position;
     }
 
@@ -107,8 +118,7 @@ public class GameState : ScriptableObject
     public void AddCheckpointReached(string uuid)
     {
         data.checkpointsReached[uuid] = true;
-        var scene = SceneManager.GetActiveScene();
-        OnSave(scene.buildIndex, scene.name);
+        OnSave(saveSceneData: true);
     }
 
     #endregion

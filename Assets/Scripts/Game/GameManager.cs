@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] float respawnTime = 3f;
     [SerializeField] DataPersistor dataPersistor;
 
-    Coroutine respawning;
+    Coroutine loading;
 
     // not a singleton
     private static GameManager instance;
@@ -31,33 +31,36 @@ public class GameManager : MonoBehaviour
         Assert.IsNotNull(dataPersistor);
     }
 
-    void Start()
-    {
-        dataPersistor.NewGame(SaveSlot.A);
-    }
-
     void OnEnable()
     {
         GlobalEvents.OnPlayerDeath += OnPlayerDeath;
         GlobalEvents.OnCheckpointReached += OnCheckpointReached;
+        GlobalEvents.OnStartGame += OnStartGame;
     }
 
     void OnDisable()
     {
         GlobalEvents.OnPlayerDeath -= OnPlayerDeath;
         GlobalEvents.OnCheckpointReached -= OnCheckpointReached;
+        GlobalEvents.OnStartGame -= OnStartGame;
     }
 
     void OnPlayerDeath()
     {
-        if (respawning != null) StopCoroutine(respawning);
-        respawning = StartCoroutine(CRespawnPlayer());
+        if (loading != null) StopCoroutine(loading);
+        loading = StartCoroutine(CRespawnPlayer());
+    }
+
+    void OnStartGame()
+    {
+        if (loading != null) StopCoroutine(loading);
+        State.game.Clear();
+        loading = StartCoroutine(CLoadLevel(isNewGame: true));
     }
 
     void OnCheckpointReached()
     {
         var prevTimeScale = Time.timeScale;
-        Time.timeScale = 0;
         dataPersistor.SaveGame();
         Time.timeScale = prevTimeScale;
     }
@@ -65,9 +68,22 @@ public class GameManager : MonoBehaviour
     IEnumerator CRespawnPlayer()
     {
         yield return new WaitForSeconds(respawnTime);
-        var sceneIndex = State.game.GetSceneIndex();
-        yield return SceneManager.LoadSceneAsync(sceneIndex == -1 ? SceneManager.GetActiveScene().buildIndex : sceneIndex);
+        yield return CLoadLevel();
+    }
+
+    IEnumerator CLoadLevel(bool isNewGame = false)
+    {
+        var prevTimeScale = Time.timeScale;
+        Time.timeScale = 0;
         dataPersistor.LoadGame();
-        respawning = null;
+        if (isNewGame) dataPersistor.LoadMetadata();
+        var sceneIndex = State.game.GetSceneIndex();
+        if (sceneIndex <= 0) sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        if (sceneIndex <= 0) sceneIndex = 1;
+        yield return SceneManager.LoadSceneAsync(sceneIndex);
+        if (isNewGame) dataPersistor.SaveGame();
+        dataPersistor.NotifyLoaded();
+        Time.timeScale = prevTimeScale;
+        loading = null;
     }
 }

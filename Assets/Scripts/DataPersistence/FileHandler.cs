@@ -14,7 +14,7 @@ public enum SaveSlot
 
 public class FileHandler
 {
-    const bool DEBUG = true;
+    bool DEBUG = false;
     const string EK = "BAA896AA-D894-4088-9313-C084CE07CA1E";
     const string DEFAULT_SAVEFILE_NAME = "gamedata";
     const string EXTENSION = ".sav";
@@ -78,8 +78,8 @@ public class FileHandler
         }
         catch (System.Exception e)
         {
-            Debug.LogError($"[FileRW] Failed to save file \"{path}\"");
-            Debug.LogError(e);
+            if (DEBUG) Debug.LogError($"[FileRW] Failed to save file \"{path}\"");
+            if (DEBUG) Debug.LogError(e);
             return false;
         }
         finally
@@ -111,8 +111,8 @@ public class FileHandler
         }
         catch (System.Exception e)
         {
-            Debug.LogError($"[FileRW] Failed to load file \"{path}\"");
-            Debug.LogError(e);
+            if (DEBUG) Debug.LogError($"[FileRW] Failed to load file \"{path}\"");
+            if (DEBUG) Debug.LogError(e);
             loadedData = default(T);
             return false;
         }
@@ -142,8 +142,8 @@ public class FileHandler
         }
         catch (System.Exception e)
         {
-            Debug.LogError($"[FileRW] Failed to delete file \"{path}\"");
-            Debug.LogError(e);
+            if (DEBUG) Debug.LogError($"[FileRW] Failed to delete file \"{path}\"");
+            if (DEBUG) Debug.LogError(e);
         }
     }
 
