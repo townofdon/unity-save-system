@@ -75,21 +75,14 @@ public class Player : MonoSaveable
 
     public override void OnGameSave(ref GameState gameState)
     {
-        Debug.Log("[Player] OnGameSave");
         gameState.SetPlayerSpawnPosition(transform.position);
     }
 
     public override void OnGameLoad(GameState gameState)
     {
-        Debug.Log("[Player] OnGameLoad");
         if (gameState.GetSceneIndex() != -1)
         {
             transform.position = gameState.GetPlayerSpawnPosition();
-            Debug.Log("[Player][OnGameLoad] set position");
-        }
-        else
-        {
-            Debug.Log("[Player][OnGameLoad] SCENE INDEX WAS -1!");
         }
     }
 
@@ -97,22 +90,13 @@ public class Player : MonoSaveable
     {
         body = GetComponent<Rigidbody2D>();
         collider = GetComponent<BoxCollider2D>();
-
-        Debug.Log("[Player] Awake");
     }
 
     void Start()
     {
         hp = initialHealth;
         initialDrag = body.drag;
-
-        // NOTE - NEED TO FIGURE OUT HOW TO HANDLE SPAWNING ACROSS DIFFERENT SCENES
-        // transform.position = State.game.GetPlayerSpawnPosition();
-        // State.game.SetPlayerSpawnPosition(transform.position);
-
         timeSinceJumpLastPressed = float.MaxValue;
-
-        Debug.Log("[Player] Start");
     }
 
     void OnTriggerEnter2D(Collider2D other)

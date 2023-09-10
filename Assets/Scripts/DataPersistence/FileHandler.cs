@@ -14,15 +14,15 @@ public enum SaveSlot
 
 public class FileHandler
 {
-    private const bool DEBUG = true;
-    private const string EK = "BAA896AA-D894-4088-9313-C084CE07CA1E";
-    private const string DEFAULT_SAVEFILE_NAME = "gamedata";
-    private const string EXTENSION = ".sav";
-    private const string SAVE_SLOT_DIR_A = "01";
-    private const string SAVE_SLOT_DIR_B = "02";
-    private const string SAVE_SLOT_DIR_C = "03";
-    private const string SAVE_SLOT_DIR_D = "04";
-    private readonly string saveFileName;
+    const bool DEBUG = true;
+    const string EK = "BAA896AA-D894-4088-9313-C084CE07CA1E";
+    const string DEFAULT_SAVEFILE_NAME = "gamedata";
+    const string EXTENSION = ".sav";
+    const string SAVE_SLOT_DIR_A = "01";
+    const string SAVE_SLOT_DIR_B = "02";
+    const string SAVE_SLOT_DIR_C = "03";
+    const string SAVE_SLOT_DIR_D = "04";
+    readonly string saveFileName;
 
     public FileHandler(string saveFileName = DEFAULT_SAVEFILE_NAME)
     {

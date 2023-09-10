@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DataPersistor : MonoBehaviour
 {
-    private const string METADATA_SAVE_FILE_NAME = "metadata";
+    const string METADATA_SAVE_FILE_NAME = "metadata";
 
     [SerializeField] SaveSlot saveSlot;
     [SerializeField] bool useEncryption;

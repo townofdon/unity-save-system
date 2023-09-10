@@ -66,9 +66,7 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(respawnTime);
         var sceneIndex = State.game.GetSceneIndex();
-        Debug.Log("[GameManager] before scene load");
         yield return SceneManager.LoadSceneAsync(sceneIndex == -1 ? SceneManager.GetActiveScene().buildIndex : sceneIndex);
-        Debug.Log("[GameManager] after scene load");
         dataPersistor.LoadGame();
         respawning = null;
     }

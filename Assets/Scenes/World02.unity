@@ -724,7 +724,6 @@ GameObject:
   - component: {fileID: 91384930}
   - component: {fileID: 91384929}
   - component: {fileID: 91384928}
-  - component: {fileID: 91384927}
   m_Layer: 9
   m_Name: Coin (56)
   m_TagString: Collectible
@@ -748,18 +747,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &91384927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91384925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &91384928
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -877,7 +864,6 @@ GameObject:
   - component: {fileID: 92392066}
   - component: {fileID: 92392065}
   - component: {fileID: 92392064}
-  - component: {fileID: 92392063}
   m_Layer: 9
   m_Name: Coin (85)
   m_TagString: Collectible
@@ -901,18 +887,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &92392063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92392061}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &92392064
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1030,7 +1004,6 @@ GameObject:
   - component: {fileID: 105273747}
   - component: {fileID: 105273746}
   - component: {fileID: 105273745}
-  - component: {fileID: 105273744}
   m_Layer: 9
   m_Name: Coin (50)
   m_TagString: Collectible
@@ -1054,18 +1027,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &105273744
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 105273742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &105273745
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1299,7 +1260,6 @@ GameObject:
   - component: {fileID: 146060819}
   - component: {fileID: 146060818}
   - component: {fileID: 146060817}
-  - component: {fileID: 146060816}
   m_Layer: 9
   m_Name: Coin (39)
   m_TagString: Collectible
@@ -1323,18 +1283,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &146060816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 146060814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &146060817
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1739,7 +1687,6 @@ GameObject:
   - component: {fileID: 201017839}
   - component: {fileID: 201017838}
   - component: {fileID: 201017837}
-  - component: {fileID: 201017836}
   m_Layer: 9
   m_Name: Coin (49)
   m_TagString: Collectible
@@ -1763,18 +1710,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &201017836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201017834}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &201017837
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1892,7 +1827,6 @@ GameObject:
   - component: {fileID: 241486354}
   - component: {fileID: 241486353}
   - component: {fileID: 241486352}
-  - component: {fileID: 241486351}
   m_Layer: 9
   m_Name: Coin (41)
   m_TagString: Collectible
@@ -1916,18 +1850,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &241486351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 241486349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &241486352
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2213,7 +2135,6 @@ GameObject:
   - component: {fileID: 260465206}
   - component: {fileID: 260465205}
   - component: {fileID: 260465204}
-  - component: {fileID: 260465203}
   m_Layer: 9
   m_Name: Coin (75)
   m_TagString: Collectible
@@ -2237,18 +2158,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &260465203
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 260465201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &260465204
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2534,7 +2443,6 @@ GameObject:
   - component: {fileID: 277167245}
   - component: {fileID: 277167244}
   - component: {fileID: 277167243}
-  - component: {fileID: 277167242}
   m_Layer: 9
   m_Name: Coin (18)
   m_TagString: Collectible
@@ -2558,18 +2466,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &277167242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277167240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &277167243
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2687,7 +2583,6 @@ GameObject:
   - component: {fileID: 292685036}
   - component: {fileID: 292685035}
   - component: {fileID: 292685034}
-  - component: {fileID: 292685033}
   m_Layer: 9
   m_Name: Coin (79)
   m_TagString: Collectible
@@ -2711,18 +2606,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &292685033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 292685031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &292685034
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2924,7 +2807,6 @@ GameObject:
   - component: {fileID: 299055110}
   - component: {fileID: 299055109}
   - component: {fileID: 299055108}
-  - component: {fileID: 299055107}
   m_Layer: 9
   m_Name: Coin (22)
   m_TagString: Collectible
@@ -2948,18 +2830,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &299055107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299055105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &299055108
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3161,7 +3031,6 @@ GameObject:
   - component: {fileID: 321525752}
   - component: {fileID: 321525751}
   - component: {fileID: 321525750}
-  - component: {fileID: 321525749}
   m_Layer: 9
   m_Name: Coin (73)
   m_TagString: Collectible
@@ -3185,18 +3054,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &321525749
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 321525747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &321525750
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3482,7 +3339,6 @@ GameObject:
   - component: {fileID: 339631848}
   - component: {fileID: 339631847}
   - component: {fileID: 339631846}
-  - component: {fileID: 339631845}
   m_Layer: 9
   m_Name: Coin (64)
   m_TagString: Collectible
@@ -3506,18 +3362,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &339631845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 339631843}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &339631846
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4226,7 +4070,6 @@ GameObject:
   - component: {fileID: 483937821}
   - component: {fileID: 483937822}
   - component: {fileID: 483937823}
-  - component: {fileID: 483937825}
   - component: {fileID: 483937824}
   m_Layer: 7
   m_Name: Enemy
@@ -4313,18 +4156,6 @@ MonoBehaviour:
   _uuid: 2fc1c833-c8f1-4176-a534-d43824f6db8b
   _scenePath: Assets/Scenes/World02.unity
   moveSpeed: 2
---- !u!114 &483937825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483937820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &493284883
 GameObject:
   m_ObjectHideFlags: 0
@@ -4506,7 +4337,6 @@ GameObject:
   - component: {fileID: 516737557}
   - component: {fileID: 516737556}
   - component: {fileID: 516737555}
-  - component: {fileID: 516737554}
   m_Layer: 9
   m_Name: Coin (67)
   m_TagString: Collectible
@@ -4530,18 +4360,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &516737554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 516737552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &516737555
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4911,7 +4729,6 @@ GameObject:
   - component: {fileID: 547997225}
   - component: {fileID: 547997224}
   - component: {fileID: 547997223}
-  - component: {fileID: 547997222}
   m_Layer: 9
   m_Name: Coin (5)
   m_TagString: Collectible
@@ -4935,18 +4752,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &547997222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547997220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &547997223
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5232,7 +5037,6 @@ GameObject:
   - component: {fileID: 587657638}
   - component: {fileID: 587657637}
   - component: {fileID: 587657636}
-  - component: {fileID: 587657635}
   m_Layer: 9
   m_Name: Coin (20)
   m_TagString: Collectible
@@ -5256,18 +5060,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &587657635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587657633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &587657636
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5637,7 +5429,6 @@ GameObject:
   - component: {fileID: 672021125}
   - component: {fileID: 672021124}
   - component: {fileID: 672021123}
-  - component: {fileID: 672021122}
   m_Layer: 9
   m_Name: Coin (55)
   m_TagString: Collectible
@@ -5661,18 +5452,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &672021122
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672021120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &672021123
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5790,7 +5569,6 @@ GameObject:
   - component: {fileID: 677692535}
   - component: {fileID: 677692534}
   - component: {fileID: 677692533}
-  - component: {fileID: 677692532}
   m_Layer: 9
   m_Name: Coin (72)
   m_TagString: Collectible
@@ -5814,18 +5592,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &677692532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 677692530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &677692533
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6027,7 +5793,6 @@ GameObject:
   - component: {fileID: 684374670}
   - component: {fileID: 684374669}
   - component: {fileID: 684374668}
-  - component: {fileID: 684374667}
   m_Layer: 9
   m_Name: Coin (23)
   m_TagString: Collectible
@@ -6051,18 +5816,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &684374667
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 684374665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &684374668
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6180,7 +5933,6 @@ GameObject:
   - component: {fileID: 687704786}
   - component: {fileID: 687704785}
   - component: {fileID: 687704784}
-  - component: {fileID: 687704783}
   m_Layer: 9
   m_Name: Coin (65)
   m_TagString: Collectible
@@ -6204,18 +5956,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &687704783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687704781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &687704784
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6333,7 +6073,6 @@ GameObject:
   - component: {fileID: 699064446}
   - component: {fileID: 699064445}
   - component: {fileID: 699064444}
-  - component: {fileID: 699064443}
   m_Layer: 9
   m_Name: Coin (51)
   m_TagString: Collectible
@@ -6357,18 +6096,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &699064443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 699064441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &699064444
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6570,7 +6297,6 @@ GameObject:
   - component: {fileID: 707241630}
   - component: {fileID: 707241629}
   - component: {fileID: 707241628}
-  - component: {fileID: 707241627}
   m_Layer: 9
   m_Name: Coin (77)
   m_TagString: Collectible
@@ -6594,18 +6320,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &707241627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707241625}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &707241628
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7129,7 +6843,6 @@ GameObject:
   - component: {fileID: 745179337}
   - component: {fileID: 745179336}
   - component: {fileID: 745179335}
-  - component: {fileID: 745179334}
   m_Layer: 9
   m_Name: Coin (2)
   m_TagString: Collectible
@@ -7153,18 +6866,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &745179334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 745179332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &745179335
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7366,7 +7067,6 @@ GameObject:
   - component: {fileID: 756384119}
   - component: {fileID: 756384118}
   - component: {fileID: 756384117}
-  - component: {fileID: 756384116}
   m_Layer: 9
   m_Name: Coin (76)
   m_TagString: Collectible
@@ -7390,18 +7090,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &756384116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 756384114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &756384117
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7519,7 +7207,6 @@ GameObject:
   - component: {fileID: 759368414}
   - component: {fileID: 759368413}
   - component: {fileID: 759368412}
-  - component: {fileID: 759368411}
   m_Layer: 9
   m_Name: Coin (48)
   m_TagString: Collectible
@@ -7543,18 +7230,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &759368411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759368409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &759368412
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7672,7 +7347,6 @@ GameObject:
   - component: {fileID: 773071071}
   - component: {fileID: 773071070}
   - component: {fileID: 773071069}
-  - component: {fileID: 773071068}
   m_Layer: 9
   m_Name: Coin (3)
   m_TagString: Collectible
@@ -7696,18 +7370,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &773071068
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773071066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &773071069
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7825,7 +7487,6 @@ GameObject:
   - component: {fileID: 777145237}
   - component: {fileID: 777145236}
   - component: {fileID: 777145235}
-  - component: {fileID: 777145234}
   m_Layer: 9
   m_Name: Coin (46)
   m_TagString: Collectible
@@ -7849,18 +7510,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &777145234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 777145232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &777145235
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9964,7 +9613,6 @@ GameObject:
   - component: {fileID: 834593997}
   - component: {fileID: 834593996}
   - component: {fileID: 834593995}
-  - component: {fileID: 834593994}
   m_Layer: 9
   m_Name: Coin (16)
   m_TagString: Collectible
@@ -9988,18 +9636,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &834593994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 834593992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &834593995
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10117,7 +9753,6 @@ GameObject:
   - component: {fileID: 835137483}
   - component: {fileID: 835137482}
   - component: {fileID: 835137481}
-  - component: {fileID: 835137480}
   m_Layer: 9
   m_Name: Coin (78)
   m_TagString: Collectible
@@ -10141,18 +9776,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &835137480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 835137478}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &835137481
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10270,7 +9893,6 @@ GameObject:
   - component: {fileID: 860110380}
   - component: {fileID: 860110379}
   - component: {fileID: 860110378}
-  - component: {fileID: 860110377}
   m_Layer: 9
   m_Name: Coin (54)
   m_TagString: Collectible
@@ -10294,18 +9916,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &860110377
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860110375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &860110378
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10423,7 +10033,6 @@ GameObject:
   - component: {fileID: 863642628}
   - component: {fileID: 863642627}
   - component: {fileID: 863642626}
-  - component: {fileID: 863642625}
   m_Layer: 9
   m_Name: Coin (83)
   m_TagString: Collectible
@@ -10447,18 +10056,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &863642625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863642623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &863642626
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10576,7 +10173,6 @@ GameObject:
   - component: {fileID: 874444338}
   - component: {fileID: 874444340}
   - component: {fileID: 874444341}
-  - component: {fileID: 874444342}
   m_Layer: 9
   m_Name: Coin
   m_TagString: Collectible
@@ -10704,18 +10300,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
---- !u!114 &874444342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874444336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &884176748
 GameObject:
   m_ObjectHideFlags: 0
@@ -10729,7 +10313,6 @@ GameObject:
   - component: {fileID: 884176753}
   - component: {fileID: 884176752}
   - component: {fileID: 884176751}
-  - component: {fileID: 884176750}
   m_Layer: 9
   m_Name: Coin (37)
   m_TagString: Collectible
@@ -10753,18 +10336,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &884176750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 884176748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &884176751
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10882,7 +10453,6 @@ GameObject:
   - component: {fileID: 894927825}
   - component: {fileID: 894927824}
   - component: {fileID: 894927823}
-  - component: {fileID: 894927822}
   m_Layer: 9
   m_Name: Coin (8)
   m_TagString: Collectible
@@ -10906,18 +10476,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &894927822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 894927820}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &894927823
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11035,7 +10593,6 @@ GameObject:
   - component: {fileID: 928120927}
   - component: {fileID: 928120926}
   - component: {fileID: 928120925}
-  - component: {fileID: 928120924}
   m_Layer: 9
   m_Name: Coin (58)
   m_TagString: Collectible
@@ -11059,18 +10616,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &928120924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 928120922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &928120925
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11356,7 +10901,6 @@ GameObject:
   - component: {fileID: 958833622}
   - component: {fileID: 958833621}
   - component: {fileID: 958833620}
-  - component: {fileID: 958833619}
   m_Layer: 9
   m_Name: Coin (28)
   m_TagString: Collectible
@@ -11380,18 +10924,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &958833619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 958833617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &958833620
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11509,7 +11041,6 @@ GameObject:
   - component: {fileID: 961407639}
   - component: {fileID: 961407638}
   - component: {fileID: 961407637}
-  - component: {fileID: 961407636}
   m_Layer: 9
   m_Name: Coin (59)
   m_TagString: Collectible
@@ -11533,18 +11064,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &961407636
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 961407634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &961407637
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11662,7 +11181,6 @@ GameObject:
   - component: {fileID: 968599291}
   - component: {fileID: 968599290}
   - component: {fileID: 968599289}
-  - component: {fileID: 968599288}
   m_Layer: 9
   m_Name: Coin (82)
   m_TagString: Collectible
@@ -11686,18 +11204,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &968599288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968599286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &968599289
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -11899,7 +11405,6 @@ GameObject:
   - component: {fileID: 1009958337}
   - component: {fileID: 1009958336}
   - component: {fileID: 1009958335}
-  - component: {fileID: 1009958334}
   m_Layer: 9
   m_Name: Coin (14)
   m_TagString: Collectible
@@ -11923,18 +11428,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1009958334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009958332}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1009958335
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12052,7 +11545,6 @@ GameObject:
   - component: {fileID: 1019386819}
   - component: {fileID: 1019386818}
   - component: {fileID: 1019386817}
-  - component: {fileID: 1019386816}
   m_Layer: 9
   m_Name: Coin (29)
   m_TagString: Collectible
@@ -12076,18 +11568,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1019386816
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1019386814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1019386817
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12205,7 +11685,6 @@ GameObject:
   - component: {fileID: 1026410191}
   - component: {fileID: 1026410190}
   - component: {fileID: 1026410189}
-  - component: {fileID: 1026410188}
   m_Layer: 9
   m_Name: Coin (36)
   m_TagString: Collectible
@@ -12229,18 +11708,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1026410188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026410186}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1026410189
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12358,7 +11825,6 @@ GameObject:
   - component: {fileID: 1042346954}
   - component: {fileID: 1042346953}
   - component: {fileID: 1042346952}
-  - component: {fileID: 1042346951}
   m_Layer: 9
   m_Name: Coin (6)
   m_TagString: Collectible
@@ -12382,18 +11848,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1042346951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1042346949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1042346952
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12595,7 +12049,6 @@ GameObject:
   - component: {fileID: 1046587411}
   - component: {fileID: 1046587410}
   - component: {fileID: 1046587409}
-  - component: {fileID: 1046587408}
   m_Layer: 9
   m_Name: Coin (74)
   m_TagString: Collectible
@@ -12619,18 +12072,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1046587408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046587406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1046587409
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -12832,7 +12273,6 @@ GameObject:
   - component: {fileID: 1083075744}
   - component: {fileID: 1083075743}
   - component: {fileID: 1083075742}
-  - component: {fileID: 1083075741}
   m_Layer: 9
   m_Name: Coin (9)
   m_TagString: Collectible
@@ -12856,18 +12296,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1083075741
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083075739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1083075742
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13153,7 +12581,6 @@ GameObject:
   - component: {fileID: 1107114965}
   - component: {fileID: 1107114964}
   - component: {fileID: 1107114963}
-  - component: {fileID: 1107114962}
   m_Layer: 9
   m_Name: Coin (19)
   m_TagString: Collectible
@@ -13177,18 +12604,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1107114962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107114960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1107114963
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13558,7 +12973,6 @@ GameObject:
   - component: {fileID: 1165253104}
   - component: {fileID: 1165253103}
   - component: {fileID: 1165253102}
-  - component: {fileID: 1165253101}
   m_Layer: 9
   m_Name: Coin (15)
   m_TagString: Collectible
@@ -13582,18 +12996,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1165253101
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1165253099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1165253102
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13711,7 +13113,6 @@ GameObject:
   - component: {fileID: 1197385548}
   - component: {fileID: 1197385547}
   - component: {fileID: 1197385546}
-  - component: {fileID: 1197385545}
   m_Layer: 9
   m_Name: Coin (32)
   m_TagString: Collectible
@@ -13735,18 +13136,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1197385545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1197385543}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1197385546
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -13864,7 +13253,6 @@ GameObject:
   - component: {fileID: 1204147239}
   - component: {fileID: 1204147238}
   - component: {fileID: 1204147237}
-  - component: {fileID: 1204147236}
   m_Layer: 9
   m_Name: Coin (34)
   m_TagString: Collectible
@@ -13888,18 +13276,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1204147236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1204147234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1204147237
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14101,7 +13477,6 @@ GameObject:
   - component: {fileID: 1234284421}
   - component: {fileID: 1234284420}
   - component: {fileID: 1234284419}
-  - component: {fileID: 1234284418}
   m_Layer: 9
   m_Name: Coin (62)
   m_TagString: Collectible
@@ -14125,18 +13500,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1234284418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234284416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1234284419
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14254,7 +13617,6 @@ GameObject:
   - component: {fileID: 1236258814}
   - component: {fileID: 1236258813}
   - component: {fileID: 1236258812}
-  - component: {fileID: 1236258811}
   m_Layer: 9
   m_Name: Coin (40)
   m_TagString: Collectible
@@ -14278,18 +13640,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1236258811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1236258809}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1236258812
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14407,7 +13757,6 @@ GameObject:
   - component: {fileID: 1238586002}
   - component: {fileID: 1238586001}
   - component: {fileID: 1238586000}
-  - component: {fileID: 1238585999}
   m_Layer: 9
   m_Name: Coin (69)
   m_TagString: Collectible
@@ -14431,18 +13780,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1238585999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1238585997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1238586000
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14644,7 +13981,6 @@ GameObject:
   - component: {fileID: 1248223085}
   - component: {fileID: 1248223084}
   - component: {fileID: 1248223083}
-  - component: {fileID: 1248223082}
   m_Layer: 9
   m_Name: Coin (63)
   m_TagString: Collectible
@@ -14668,18 +14004,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 63
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1248223082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248223080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1248223083
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14871,7 +14195,6 @@ GameObject:
   - component: {fileID: 1277708798}
   - component: {fileID: 1277708797}
   - component: {fileID: 1277708796}
-  - component: {fileID: 1277708795}
   m_Layer: 9
   m_Name: Coin (43)
   m_TagString: Collectible
@@ -14895,18 +14218,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1277708795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1277708793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1277708796
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15024,7 +14335,6 @@ GameObject:
   - component: {fileID: 1291614264}
   - component: {fileID: 1291614263}
   - component: {fileID: 1291614262}
-  - component: {fileID: 1291614261}
   m_Layer: 9
   m_Name: Coin (26)
   m_TagString: Collectible
@@ -15048,18 +14358,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1291614261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1291614259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1291614262
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15261,7 +14559,6 @@ GameObject:
   - component: {fileID: 1297718070}
   - component: {fileID: 1297718069}
   - component: {fileID: 1297718068}
-  - component: {fileID: 1297718067}
   m_Layer: 9
   m_Name: Coin (53)
   m_TagString: Collectible
@@ -15285,18 +14582,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1297718067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297718065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1297718068
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15568,7 +14853,6 @@ GameObject:
   - component: {fileID: 1321496722}
   - component: {fileID: 1321496721}
   - component: {fileID: 1321496720}
-  - component: {fileID: 1321496719}
   m_Layer: 9
   m_Name: Coin (80)
   m_TagString: Collectible
@@ -15592,18 +14876,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1321496719
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321496717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1321496720
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15973,7 +15245,6 @@ GameObject:
   - component: {fileID: 1358952765}
   - component: {fileID: 1358952764}
   - component: {fileID: 1358952763}
-  - component: {fileID: 1358952762}
   m_Layer: 9
   m_Name: Coin (33)
   m_TagString: Collectible
@@ -15997,18 +15268,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1358952762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1358952760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1358952763
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16126,7 +15385,6 @@ GameObject:
   - component: {fileID: 1377472044}
   - component: {fileID: 1377472043}
   - component: {fileID: 1377472042}
-  - component: {fileID: 1377472041}
   m_Layer: 9
   m_Name: Coin (45)
   m_TagString: Collectible
@@ -16150,18 +15408,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1377472041
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1377472039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1377472042
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16279,7 +15525,6 @@ GameObject:
   - component: {fileID: 1390004762}
   - component: {fileID: 1390004761}
   - component: {fileID: 1390004760}
-  - component: {fileID: 1390004759}
   m_Layer: 9
   m_Name: Coin (84)
   m_TagString: Collectible
@@ -16303,18 +15548,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1390004759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390004757}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1390004760
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16600,7 +15833,6 @@ GameObject:
   - component: {fileID: 1467208094}
   - component: {fileID: 1467208093}
   - component: {fileID: 1467208092}
-  - component: {fileID: 1467208091}
   m_Layer: 9
   m_Name: Coin (57)
   m_TagString: Collectible
@@ -16624,18 +15856,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1467208091
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1467208089}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1467208092
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16753,7 +15973,6 @@ GameObject:
   - component: {fileID: 1483891140}
   - component: {fileID: 1483891139}
   - component: {fileID: 1483891138}
-  - component: {fileID: 1483891137}
   m_Layer: 9
   m_Name: Coin (7)
   m_TagString: Collectible
@@ -16777,18 +15996,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1483891137
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483891135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1483891138
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16990,7 +16197,6 @@ GameObject:
   - component: {fileID: 1488534342}
   - component: {fileID: 1488534341}
   - component: {fileID: 1488534340}
-  - component: {fileID: 1488534339}
   m_Layer: 9
   m_Name: Coin (66)
   m_TagString: Collectible
@@ -17014,18 +16220,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1488534339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1488534337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1488534340
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17143,7 +16337,6 @@ GameObject:
   - component: {fileID: 1530136776}
   - component: {fileID: 1530136775}
   - component: {fileID: 1530136774}
-  - component: {fileID: 1530136773}
   m_Layer: 9
   m_Name: Coin (30)
   m_TagString: Collectible
@@ -17167,18 +16360,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1530136773
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1530136771}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1530136774
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17296,7 +16477,6 @@ GameObject:
   - component: {fileID: 1551259771}
   - component: {fileID: 1551259770}
   - component: {fileID: 1551259769}
-  - component: {fileID: 1551259768}
   m_Layer: 9
   m_Name: Coin (13)
   m_TagString: Collectible
@@ -17320,18 +16500,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1551259768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1551259766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1551259769
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17785,7 +16953,6 @@ GameObject:
   - component: {fileID: 1591270915}
   - component: {fileID: 1591270914}
   - component: {fileID: 1591270913}
-  - component: {fileID: 1591270912}
   m_Layer: 9
   m_Name: Coin (17)
   m_TagString: Collectible
@@ -17809,18 +16976,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1591270912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591270910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1591270913
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17938,7 +17093,6 @@ GameObject:
   - component: {fileID: 1592287401}
   - component: {fileID: 1592287400}
   - component: {fileID: 1592287399}
-  - component: {fileID: 1592287398}
   m_Layer: 9
   m_Name: Coin (35)
   m_TagString: Collectible
@@ -17962,18 +17116,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1592287398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1592287396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1592287399
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18091,7 +17233,6 @@ GameObject:
   - component: {fileID: 1603567593}
   - component: {fileID: 1603567592}
   - component: {fileID: 1603567591}
-  - component: {fileID: 1603567590}
   m_Layer: 9
   m_Name: Coin (31)
   m_TagString: Collectible
@@ -18115,18 +17256,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1603567590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1603567588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1603567591
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18244,7 +17373,6 @@ GameObject:
   - component: {fileID: 1605027743}
   - component: {fileID: 1605027742}
   - component: {fileID: 1605027741}
-  - component: {fileID: 1605027740}
   m_Layer: 9
   m_Name: Coin (25)
   m_TagString: Collectible
@@ -18268,18 +17396,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1605027740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1605027738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1605027741
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18471,7 +17587,6 @@ GameObject:
   - component: {fileID: 1630199907}
   - component: {fileID: 1630199906}
   - component: {fileID: 1630199905}
-  - component: {fileID: 1630199904}
   m_Layer: 9
   m_Name: Coin (44)
   m_TagString: Collectible
@@ -18495,18 +17610,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1630199904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1630199902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1630199905
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18866,7 +17969,6 @@ GameObject:
   - component: {fileID: 1679074964}
   - component: {fileID: 1679074963}
   - component: {fileID: 1679074962}
-  - component: {fileID: 1679074961}
   m_Layer: 9
   m_Name: Coin (21)
   m_TagString: Collectible
@@ -18890,18 +17992,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1679074961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1679074959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1679074962
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19019,7 +18109,6 @@ GameObject:
   - component: {fileID: 1715966214}
   - component: {fileID: 1715966213}
   - component: {fileID: 1715966212}
-  - component: {fileID: 1715966211}
   m_Layer: 9
   m_Name: Coin (42)
   m_TagString: Collectible
@@ -19043,18 +18132,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1715966211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1715966209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1715966212
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19326,7 +18403,6 @@ GameObject:
   - component: {fileID: 1773428608}
   - component: {fileID: 1773428607}
   - component: {fileID: 1773428606}
-  - component: {fileID: 1773428605}
   m_Layer: 9
   m_Name: Coin (11)
   m_TagString: Collectible
@@ -19350,18 +18426,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1773428605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1773428603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1773428606
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19479,7 +18543,6 @@ GameObject:
   - component: {fileID: 1792944943}
   - component: {fileID: 1792944942}
   - component: {fileID: 1792944941}
-  - component: {fileID: 1792944940}
   m_Layer: 9
   m_Name: Coin (4)
   m_TagString: Collectible
@@ -19503,18 +18566,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1792944940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792944938}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1792944941
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19716,7 +18767,6 @@ GameObject:
   - component: {fileID: 1803986865}
   - component: {fileID: 1803986864}
   - component: {fileID: 1803986863}
-  - component: {fileID: 1803986862}
   m_Layer: 9
   m_Name: Coin (12)
   m_TagString: Collectible
@@ -19740,18 +18790,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1803986862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1803986860}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1803986863
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19869,7 +18907,6 @@ GameObject:
   - component: {fileID: 1835027230}
   - component: {fileID: 1835027229}
   - component: {fileID: 1835027228}
-  - component: {fileID: 1835027227}
   m_Layer: 9
   m_Name: Coin (60)
   m_TagString: Collectible
@@ -19893,18 +18930,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1835027227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1835027225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1835027228
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20022,7 +19047,6 @@ GameObject:
   - component: {fileID: 1840298575}
   - component: {fileID: 1840298574}
   - component: {fileID: 1840298573}
-  - component: {fileID: 1840298572}
   m_Layer: 9
   m_Name: Coin (68)
   m_TagString: Collectible
@@ -20046,18 +19070,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1840298572
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840298570}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1840298573
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20175,7 +19187,6 @@ GameObject:
   - component: {fileID: 1864994664}
   - component: {fileID: 1864994663}
   - component: {fileID: 1864994662}
-  - component: {fileID: 1864994661}
   m_Layer: 9
   m_Name: Coin (47)
   m_TagString: Collectible
@@ -20199,18 +19210,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1864994661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864994659}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1864994662
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20328,7 +19327,6 @@ GameObject:
   - component: {fileID: 1870561357}
   - component: {fileID: 1870561356}
   - component: {fileID: 1870561355}
-  - component: {fileID: 1870561354}
   m_Layer: 9
   m_Name: Coin (52)
   m_TagString: Collectible
@@ -20352,18 +19350,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1870561354
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870561352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1870561355
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20733,7 +19719,6 @@ GameObject:
   - component: {fileID: 1903674449}
   - component: {fileID: 1903674448}
   - component: {fileID: 1903674447}
-  - component: {fileID: 1903674446}
   m_Layer: 9
   m_Name: Coin (1)
   m_TagString: Collectible
@@ -20757,18 +19742,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1903674446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1903674444}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1903674447
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21054,7 +20027,6 @@ GameObject:
   - component: {fileID: 1936568085}
   - component: {fileID: 1936568084}
   - component: {fileID: 1936568083}
-  - component: {fileID: 1936568082}
   m_Layer: 9
   m_Name: Coin (24)
   m_TagString: Collectible
@@ -21078,18 +20050,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1936568082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1936568080}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1936568083
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -21207,7 +20167,6 @@ GameObject:
   - component: {fileID: 1955206754}
   - component: {fileID: 1955206753}
   - component: {fileID: 1955206752}
-  - component: {fileID: 1955206751}
   m_Layer: 9
   m_Name: Coin (10)
   m_TagString: Collectible
@@ -21231,18 +20190,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1955206751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1955206749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1955206752
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37409,7 +36356,6 @@ GameObject:
   - component: {fileID: 1996994317}
   - component: {fileID: 1996994316}
   - component: {fileID: 1996994315}
-  - component: {fileID: 1996994314}
   m_Layer: 9
   m_Name: Coin (61)
   m_TagString: Collectible
@@ -37433,18 +36379,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1996994314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1996994312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1996994315
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37562,7 +36496,6 @@ GameObject:
   - component: {fileID: 2029432878}
   - component: {fileID: 2029432877}
   - component: {fileID: 2029432876}
-  - component: {fileID: 2029432875}
   m_Layer: 9
   m_Name: Coin (38)
   m_TagString: Collectible
@@ -37586,18 +36519,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2029432875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2029432873}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &2029432876
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37799,7 +36720,6 @@ GameObject:
   - component: {fileID: 2089941241}
   - component: {fileID: 2089941240}
   - component: {fileID: 2089941239}
-  - component: {fileID: 2089941238}
   m_Layer: 9
   m_Name: Coin (27)
   m_TagString: Collectible
@@ -37823,18 +36743,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2089941238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089941236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &2089941239
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -37985,7 +36893,6 @@ GameObject:
   - component: {fileID: 2099015259}
   - component: {fileID: 2099015258}
   - component: {fileID: 2099015257}
-  - component: {fileID: 2099015256}
   m_Layer: 9
   m_Name: Coin (81)
   m_TagString: Collectible
@@ -38009,18 +36916,6 @@ Transform:
   m_Father: {fileID: 1958523363}
   m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2099015256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099015254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 602ee079d8ec14934bd6ff073495dbb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &2099015257
 CircleCollider2D:
   m_ObjectHideFlags: 0

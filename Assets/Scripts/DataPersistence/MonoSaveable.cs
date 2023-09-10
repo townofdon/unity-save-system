@@ -6,7 +6,7 @@ using UnityEngine;
 public abstract class MonoSaveable : MonoBehaviour
 {
     [ReadOnly][SerializeField] string _uuid = "";
-    [HideInInspector][SerializeField] string _scenePath;
+    [SerializeField] string _scenePath;
 
     protected string uuid => _uuid;
 
@@ -31,16 +31,19 @@ public abstract class MonoSaveable : MonoBehaviour
 
     void OnValidate()
     {
-        if (Application.IsPlaying(gameObject)) return;
+        if (Application.isPlaying) return;
+
+        _globalLookup ??= new Dictionary<string, MonoSaveable>();
 
         if (NeedsUUID() || DidSceneChange() || DidGameObjectChange() || !IsUnique(_uuid))
         {
             Regen();
         }
 
+        // word to the wise - do NOT set serialized properties inside of OnValidate or you may trigger a stack overflow! with zero error logs which is quite annoying
+
         _prevUuid = _uuid;
         _instanceId = GetInstanceID();
-        _scenePath = GetScenePath();
         _globalLookup[_uuid] = this;
     }
 
@@ -72,7 +75,7 @@ public abstract class MonoSaveable : MonoBehaviour
 
     bool DidGameObjectChange()
     {
-        if (Application.IsPlaying(gameObject)) return false;
+        if (Application.isPlaying) return false;
         if (_instanceId == default) return false;
         if (GetInstanceID() == default) return false;
         return _instanceId != GetInstanceID();
@@ -80,6 +83,7 @@ public abstract class MonoSaveable : MonoBehaviour
 
     bool IsUnique(string candidate)
     {
+        if (_globalLookup == null) return false;
         if (!_globalLookup.ContainsKey(candidate)) return true;
         if (_globalLookup[candidate] == this) return true;
         if (_globalLookup[candidate] == null)
@@ -100,11 +104,11 @@ public abstract class MonoSaveable : MonoBehaviour
     {
         SerializedObject serializedObject = new(this);
         SerializedProperty p_uuid = serializedObject.FindProperty("_uuid");
+        SerializedProperty p_scenePath = serializedObject.FindProperty("_scenePath");
 
         p_uuid.stringValue = Guid.NewGuid().ToString();
+        p_scenePath.stringValue = GetScenePath();
         serializedObject.ApplyModifiedProperties();
-
-        _globalLookup[p_uuid.stringValue] = this;
     }
 
 #endif
