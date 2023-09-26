@@ -169,8 +169,12 @@ public class Player : MonoSaveable
         GroundCheck();
         WallCheck();
 
+        HandleSpriteTurn();
         HandleMove();
-        HandleJump();
+        if (!HandleWallJump())
+        {
+            HandleJump();
+        }
         UpdateGravity();
         UpdateDrag();
     }
@@ -201,6 +205,16 @@ public class Player : MonoSaveable
             timeSinceLastTouchingWall = 0;
             CancelFlip();
         }
+    }
+
+    void HandleSpriteTurn()
+    {
+        if (flipSprite == null) return;
+        if (controls.move.magnitude < Mathf.Epsilon) return;
+        var direction = Mathf.Sign(controls.move.x);
+        var scale = flipSprite.transform.localScale;
+        scale.x = Mathf.Abs(scale.x) * direction;
+        flipSprite.transform.localScale = scale;
     }
 
     void UpdateGravity()
@@ -246,10 +260,7 @@ public class Player : MonoSaveable
         bool isJumpPressedFinal = timeSinceJumpLastPressed < earlyJump;
         bool canJump = isGroundedFinal && isJumpPressedFinal && !isJumpReleaseNeeded;
         if (!canJump)
-        {
-            HandleWallJump();
             return;
-        }
 
         body.velocity = new Vector2(body.velocity.x, 0);
         body.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
@@ -260,12 +271,12 @@ public class Player : MonoSaveable
         Flip();
     }
 
-    void HandleWallJump()
+    bool HandleWallJump()
     {
-        bool isTouchingWallFinal = isTouchingWall || timeSinceLastTouchingWall < coyoteTime;
+        bool isTouchingWallFinal = isTouchingWall || (timeSinceLastTouchingWall < coyoteTime && timeSinceLastWallJumped > coyoteTime);
         bool isJumpPressedFinal = timeSinceJumpLastPressed < earlyJump;
-        bool canJump = canWallJump && isTouchingWallFinal && isJumpPressedFinal && !isJumpReleaseNeeded;
-        if (!canJump) return;
+        bool canJump = !isGrounded && canWallJump && isTouchingWallFinal && isJumpPressedFinal && !isJumpReleaseNeeded;
+        if (!canJump) return false;
 
         body.velocity = Vector2.zero;
         var direction = controls.move.normalized.x >= 0 ? 1 : -1;
@@ -276,6 +287,7 @@ public class Player : MonoSaveable
         timeSinceLastGrounded = float.MaxValue;
         timeSinceLastWallJumped = 0;
         Flip();
+        return true;
     }
 
     void CancelFlip()
